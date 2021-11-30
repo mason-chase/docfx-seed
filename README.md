@@ -21,6 +21,7 @@ docfx docfx-seed\docfx.json --serve
 * Open command line:
 ```batch
 choco install docfx
+git clone https://github.com/docascode/docfx-seed.git
 docfx docfx-seed\docfx.json --serve
 ```
 
@@ -29,6 +30,7 @@ docfx docfx-seed\docfx.json --serve
 * Install [Nuget.exe](https://dist.nuget.org/index.html)
 ```sh
 > mono nuget.exe install docfx.console
+> git clone https://github.com/docascode/docfx-seed.git
 > mono docfx.console/tools/docfx.exe docfx-seed/docfx.json
 ```
 
